@@ -1,11 +1,13 @@
 function ExpenseItem() {
-  return(
+  return (
     <div>
-        <div>Date</div>
-        <div><h2>Title</h2></div>
-        <div>Amount</div>
+      <div>March 3, 2022</div>
+      <div>
+        <h2>Car Insurance</h2>
+        <div>$265.89</div>
+      </div>
     </div>
-  )
+  );
 }
 
 export default ExpenseItem;
